@@ -4,7 +4,6 @@ ______
 * Класс HTML определяет, куда сохранять вывод: на экран через print, или в файл, если передан именованный аргумент output = 'output.txt'
 
 # Пример
-Следующий код
 ```python
 with HTML(output="test.html") as doc:
     with TopLevelTag("head") as head:
@@ -30,7 +29,7 @@ with HTML(output="test.html") as doc:
 
         doc += body
 ```
-сохранит в файл test.html
+ВЫполенный код сохранит результат в файл test.html
 ```HTML
 <html>
 <head>
