@@ -29,7 +29,7 @@ with HTML(output="test.html") as doc:
 
         doc += body
 ```
-ВЫполенный код сохранит результат в файл test.html
+Выполенный код сохранит результат в файл test.html
 ```HTML
 <html>
 <head>
